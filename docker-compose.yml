@@ -13,7 +13,7 @@ services:
       - backend
 
   springboot:
-    image: mahdihemriti/eventsproject:latest
+    image: celinebenbrahim/eventsproject:latest
     depends_on:
       - mysql
     ports:
